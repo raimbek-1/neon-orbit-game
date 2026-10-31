@@ -61,6 +61,7 @@ The workflow sets `GITHUB_PAGES=true`, which builds with base path `/neon-orbit-
 
 ```sh
 GITHUB_PAGES=true npm run build
+GITHUB_PAGES=true npm run preview
 ```
 
 The live URL is available from the successful deployment job; it is not available until publication succeeds.
